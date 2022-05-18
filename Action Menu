@@ -1,0 +1,81 @@
+#Riley Park - This program will create an interactive TBG action menu
+#18 May, 2022
+
+#Choose Your Character
+print("Please select a number corresponding with the character you would like to play as:")
+print("1- Average Jeff")
+print("2- Anne the Man")
+print("3- Puffy Pamela")
+option = input("Which option would you like to choose? :")
+option = int(option)
+if option == 1:
+    print("You have chosen to play as Average Jeff")
+    print("Thank you for choosing a characters")
+    print("Good luck with your adventure!")
+elif option == 2:
+    print("You have chosen to play as Anne the Man")
+    print("Thank you for choosing a character")
+    print("Good luck with your adventure!")
+elif option == 3:
+    print("You have chosen to play as Puffy Pamela")
+    print("Thank you for choosing a characters")
+    print("Good luck with your adventure!")
+else:
+    print("Invalid selection, please select again")
+    
+#Choose Your Action 
+print("\nPlease select a number corresponding with the action you would like to commit:")
+print("1- Punch")
+print("2- Bite")
+print("3- Throw A Large Boulder")
+option = input("Which option would you like to choose? :")
+option = int(option)
+if option == 1:
+    print("You have chosen to punch your enemy away")
+    print("After punching your enemy unconscious, run away quick!")
+elif option == 2:
+    print("You have chosen to bite your enemy")
+    print("Make sure your teeth are carved sharp before you bite your enemy")
+elif option == 3:
+    print("You have chosen to throw a large boulder towards your enemy")
+    print("You must have great arm strength to throw such large boulder towards your enemy")
+else:
+    print("Invalid selection, please select again")
+
+#Choose Your destination 
+print("\nPlease select a number corresponding with the destination you would like to go to:")
+print("1- Lucid Cave")
+print("2- Apple Cloud")
+print("3- Slide to Hell")
+option = input("Which option would you like to choose? :")
+option = int(option)
+if option == 1:
+    print("You have chosen to run towards the Lucid Cave")
+    print("Settle in for the night knowing that this place with guarantee safety")
+elif option == 2:
+    print("You have chosen to fly towards Apple Cloud")
+    print("Feel the comfort of the soft clouds that will seduce you to stay for comfort")
+elif option == 3:
+    print("You have chosen to slide down the Slide to Hell")
+    print("Are you sure that you are feeling this brave? Remember, once your slide down the Slide to Hell, you will be faced with days of fighting your enemy. Your safety as well your comfort are not garanteed")
+else:
+    print("Invalid selection, please select again")
+
+#Choose Your Food
+print("\nPlease select a number corresponding with the food you would like to munch on:")
+print("1- Ripe Grapes")
+print("2- Fermented Blood")
+print("3- Leftover Arm")
+option = input("Which option would you like to choose? :")
+option = int(option)
+if option == 1:
+    print("You have chosen to eat ripe grapes")
+    print("You chose the safest option of the sweetest food avalible. Understand that it will not provide you with additional strength")
+elif option == 2:
+    print("You have chosen to eat fermented blood")
+    print("It is actually pretty nutritious. YUM")
+elif option == 3:
+    print("You have chosen to munch on some leftover arm")
+    print("You have chosen to consume the arm of your old adventure friend that you saved for all these years. Are you ready to eat it knowing that will provide you will all different nutrient?")
+else:
+    print("Invalid selection, please select again")
